@@ -1,12 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Video Pauser on Tab Switch",
+  "name": "auto-pause-extension",
   "version": "1.0",
   "description": "Automatically pauses videos when you switch tabs.",
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
     }
   ]
 }
